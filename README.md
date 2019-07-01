@@ -11,5 +11,5 @@ Classes
 Setting up steps:
 1. import these files into Studio or Atelier. 
 2. Compile all files
-3. open up the IRIS terminal and run "do##class(DataMining.PMML.Utilities).LoadAirbnbData()" to load the Airbnb dataset into IRIS
+3. open up the IRIS terminal and run do ##class(DataMining.PMML.Utilities).LoadAirbnbData("PATH-TO-Airbnb.csv-FILE") to load the Airbnb dataset into IRIS
 4. All set and methods in DataMining.PMML.Utilities can be executed to measure the various execution time
