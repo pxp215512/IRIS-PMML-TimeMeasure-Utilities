@@ -7,6 +7,7 @@ Class DataMining.PMML.RuntimeAirbnb Extends %Persistent
 	Property CreationTime As %Double;
 	
 	Property StoringTime As %Double;
+
 Storage Default
 {
 <Data name="RuntimeAirbnbDefaultData">

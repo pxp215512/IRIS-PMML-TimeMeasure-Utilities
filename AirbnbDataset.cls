@@ -1,4 +1,3 @@
-/// This is the class mapped to Airbnb.csv dataset
 Class DataMining.PMML.AirbnbDataset Extends %Persistent
 {
 	Property HostID As %Integer;
@@ -18,7 +17,6 @@ Class DataMining.PMML.AirbnbDataset Extends %Persistent
 	Property CalculatedHostListingsCount As %Integer;
 	
 	Property Availability As %Integer;
-
 Storage Default
 {
 <Data name="AirbnbDatasetDefaultData">
@@ -50,9 +48,6 @@ Storage Default
 <Value>CalculatedHostListingsCount</Value>
 </Value>
 <Value name="10">
-<Value>availability</Value>
-</Value>
-<Value name="11">
 <Value>Availability</Value>
 </Value>
 </Data>
