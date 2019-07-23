@@ -19,4 +19,4 @@ Setting up steps:
 2. Compile all files
 3. Open up the IRIS terminal and run "do##class(DataMining.PMML.Utils.LoadingData).LoadAirbnbData()" to load the Airbnb dataset into IRIS(Or load external Iris dataset using corresponding methods)
 4. All set and methods in DataMining.PMML.Utils.Measure can be executed to measure the various execution time
-5. See detail instructions in the Utils fold README
+5. See detail instructions in the Utils folder README
