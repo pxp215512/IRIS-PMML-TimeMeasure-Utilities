@@ -13,10 +13,10 @@ Classes
 8. RuntimeAirbnbArray: A %Persistent class to store the time measurement result of various models running against Airbnb dataset in Simple Mode
 
 
-
+ 
 Setting up steps:
 1. Import these files into Studio or Atelier. 
-2. Compile all files
-3. Open up the IRIS terminal and run "do##class(DataMining.PMML.Utils.LoadingData).LoadAirbnbData()" to load the Airbnb dataset into IRIS(Or load external Iris dataset using corresponding methods)
+2. Compile all files, make sure the persistent classes like AirbnbDataset and ExternalIrisDataset exist in the IRIS instance after compilation, you can check them in the management portal.
+3. Open up the IRIS terminal and run "do ##class(DataMining.PMML.Utils.LoadingData).LoadAirbnbData(PATH-TO-THE-TARGET-CSV-FILE)" to load the Airbnb dataset into IRIS(Or load external Iris dataset using corresponding methods)
 4. All set and methods in DataMining.PMML.Utils.Measure can be executed to measure the various execution time
 5. See detail instructions in the Utils folder README
